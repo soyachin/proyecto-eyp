@@ -1,0 +1,19 @@
+---
+title: "avance3"
+format: html
+editor: visual
+---
+
+## Leída de datos
+
+```{r}
+library(readr)
+datos <- read_csv("latin_american_data.csv")
+View(datos)
+```
+
+```{r}
+names <- names(datos)
+names
+
+```
